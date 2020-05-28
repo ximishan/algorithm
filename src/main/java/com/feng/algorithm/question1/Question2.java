@@ -1,9 +1,5 @@
 package com.feng.algorithm.question1;
 
-import org.apache.logging.log4j.util.Strings;
-
-import java.util.List;
-
 /**
  * @author zhangfeng
  * @date 2020/5/28 11:47 上午
@@ -36,8 +32,8 @@ public class Question2 {
         listNode2.next.next = new ListNode(4);
 
 
-        Question2 question2 = new Question2();
-        ListNode listNode  = question2.addTwoNumbers(listNode1, listNode2);
+        Question2_2 question22 = new Question2_2();
+        ListNode listNode  = question22.addTwoNumbers(listNode1, listNode2);
         System.out.println(listNode.val);
         System.out.println(listNode.next.val);
         System.out.println(listNode.next.next.val);
